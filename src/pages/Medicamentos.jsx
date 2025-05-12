@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getMedicamentos } from "../services/medicamentoService";
-import { createDetalleOrdenCompra } from "../services/ordencomprasService";
+import { createDetalleOrdenCompra } from "../services/ordenCompraService";
 
 const MedicamentosPage = () => {
   const [medicamentos, setMedicamentos] = useState([]);
